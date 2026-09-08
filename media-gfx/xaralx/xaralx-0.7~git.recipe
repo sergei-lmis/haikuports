@@ -17,7 +17,7 @@ SECONDARY_ARCHITECTURES="x86_64"
 
 PROVIDES="
 	xaralx$secondaryArchSuffix = $portVersion
-	app:XaraLX$secondaryArchSuffix = $portVersion
+	app:XaraLX = $portVersion
 	"
 REQUIRES="
 	haiku$secondaryArchSuffix
