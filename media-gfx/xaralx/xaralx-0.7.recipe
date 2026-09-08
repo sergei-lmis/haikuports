@@ -48,7 +48,7 @@ REQUIRES="
 	lib:libz$secondaryArchSuffix
 	lib:liblzma$secondaryArchSuffix
 	"
-	
+
 BUILD_REQUIRES="
 	haiku${secondaryArchSuffix}_devel
 	devel:libatk_1.0$secondaryArchSuffix
@@ -96,23 +96,23 @@ INSTALL()
 {
 	mkdir -p $appsDir
 	cp XaraLX $appsDir
-	
+
 	mkdir -p $dataDir/xaralx/Examples
 	cp Designs/* $dataDir/xaralx/Examples
-	
+
 	mkdir -p $dataDir/xaralx/Testfiles
 	cp testfiles/* $dataDir/xaralx/Testfiles
-	
+
 	mkdir -p $dataDir/xaralx/TextDesigns
 	cp TextDesigns/* $dataDir/xaralx/TextDesigns
 
 	mkdir -p $dataDir/xaralx/Templates
 	cp Templates/* $dataDir/xaralx/Templates
-	
+
 	mkdir -p $dataDir/xaralx/doc/en
 	cp doc/en/LICENSE $dataDir/xaralx/doc/
 	tar -xf doc/en/xaralxHelp.tar.gz -C $dataDir/xaralx/doc/en/
-	
+
 	local APP_SIGNATURE="application/x-vnd.xaralx"
 	local MAJOR="`echo "$portVersion" | cut -d. -f1`"
 	local MIDDLE="`echo "$portVersion" | cut -d. -f2`"
