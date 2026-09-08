@@ -13,7 +13,7 @@ PATCHES="xaralx-0.7.patchset"
 ADDITIONAL_FILES="xaralx.rdef.in"
 
 ARCHITECTURES="all !x86_gcc2"
-SECONDARY_ARCHITECTURES="x86_64"
+SECONDARY_ARCHITECTURES="x86"
 
 PROVIDES="
 	xaralx$secondaryArchSuffix = $portVersion
