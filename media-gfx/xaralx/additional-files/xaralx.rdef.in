@@ -3,7 +3,11 @@ resource app_flags B_MULTIPLE_LAUNCH;
 
 resource app_version {
 
-	variety = B_APPV_FINAL,
+	major  = @MAJOR@,
+	middle = @MIDDLE@,
+	minor  = @MINOR@,
+
+	variety = B_APPV_BETA,
 	internal = 0,
 
 	short_info = "XaraLX",
