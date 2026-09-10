@@ -28,7 +28,6 @@ REQUIRES="
 	lib:libgdk_pixbuf_2.0$secondaryArchSuffix
 	lib:libglib_2.0$secondaryArchSuffix
 	lib:libgtk_3$secondaryArchSuffix
-	lib:libharfbuzz$secondaryArchSuffix
 	lib:libicuuc$secondaryArchSuffix
 	lib:libiconv$secondaryArchSuffix
 	lib:libintl$secondaryArchSuffix
