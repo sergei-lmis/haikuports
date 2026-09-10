@@ -30,7 +30,6 @@ REQUIRES="
 	lib:libgtk_3$secondaryArchSuffix
 	lib:libicuuc$secondaryArchSuffix
 	lib:libiconv$secondaryArchSuffix
-	lib:libintl$secondaryArchSuffix
 	lib:libjpeg$secondaryArchSuffix
 	lib:libpango_1.0$secondaryArchSuffix
 	lib:libpng16$secondaryArchSuffix
